@@ -5,10 +5,10 @@
 ## 1. 👥 Team Information
 
 **Name:**
-(AKASH PAWAR && ADITYA BASAVARAJ JAMBAGI)
+(SANJAY V && MANJUNATH V)
 
 **SRN:**
-(PES2UG24CS041 && PES2UG24CS030)
+(PES2UG24AM145 && PES2UG24AM086)
 
 ---
 
@@ -16,10 +16,7 @@
 
 Follow the steps below to set up the project environment:
 
-```bash
-# Clone the repository
-git clone https://github.com/shivangjhalani/OS-Jackfruit.git
-cd OS-Jackfruit/boilerplate
+
 
 # Build the project
 make clean
@@ -122,7 +119,7 @@ sudo rmmod monitor
 
 **Description:** Shows successful creation of `/dev/container_monitor` after loading kernel module.
 
-![alt text](screenshots/1.jpeg)
+![alt text](1os.jpeg)
 
 ---
 
@@ -130,7 +127,7 @@ sudo rmmod monitor
 
 **Description:** Demonstrates successful creation of two containers (`alpha` and `beta`) with supervisor running.
 
-![alt text](screenshots/2.jpeg)
+![alt text](2os.jpeg)
 
 ---
 
@@ -138,47 +135,46 @@ sudo rmmod monitor
 
 **Description:** Displays active containers along with their respective PIDs.
 
-![alt text](screenshots/3.jpeg)
+!
 
 ---
 
-### 📸 Screenshot 4 — Logs Output
+###  Logs Output
 
 **Description:** Shows log file output generated for container execution.
 
-![alt text](screenshots/4.jpeg)
+
 
 ---
 
-### 📸 Screenshot 5 — Soft Memory Limit Trigger
+### — Soft Memory Limit Trigger
 
 **Description:** Kernel log showing warning when container exceeds soft memory limit.
 
-![alt text](screenshots/5.jpeg)
+
 
 ---
 
-### 📸 Screenshot 6 — Hard Memory Limit Enforcement
+### 📸  — Hard Memory Limit Enforcement
 
 **Description:** Kernel log showing container termination when hard limit is exceeded.
 
-![alt text](screenshots/6.jpeg)
+!
 
 ---
 
-### 📸 Screenshot 7 — CLI Control Response
+### 📸  — CLI Control Response
 
 **Description:** Output of `stop` command confirming container termination.
 
-![alt text](screenshots/7.jpeg)
 
 ---
 
-### 📸 Screenshot 8 — No Zombie Processes
+### 📸 — No Zombie Processes
 
 **Description:** Confirms proper cleanup (no `<defunct>` processes present).
+[alt text](3os.jpeg)
 
-![alt text](screenshots/8.jpeg)
 ---
 
 ## 5. ⚙️ Engineering Analysis
